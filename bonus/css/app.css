@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.card {
+    background-color: cornflowerblue !important;
+}
+
+.table {
+    background-color: cornflowerblue;
+}
+
+th {
+    font-size: 2rem;
+}
+
+td {
+    font-size: 1.5rem;
+    line-height: 150px;
+}
