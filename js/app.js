@@ -39,6 +39,8 @@ const team = [
 
 console.log(team)
 
+// MILESTONE 1
+
 for (i=0; i<team.length; i++) {
 
     for (let key in team[i]) {
@@ -46,6 +48,30 @@ for (i=0; i<team.length; i++) {
     }
     let imgSrc = team[i].getImgSrc()
     console.log(imgSrc)
+}
+
+// MILESTONE 2
+
+const tBodyEl = document.querySelector('.t-body')
+
+for (i=0; i<team.length; i++) {
+
+    const mate = team[i]
+
+    const firstName = mate.firstName
+    const lastName = mate.lastName
+    const fullName = `${firstName} ${lastName}`
+    const role = mate.role
+    const imgSrc = mate.getImgSrc()
+
+    const tr = `
+    <tr>
+        <td>${fullName}</td>
+        <td>${role}</td>
+        <td>${imgSrc}</td>
+    </tr>`
+
+    tBodyEl.innerHTML += tr
 }
 
 

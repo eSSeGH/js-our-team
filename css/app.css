@@ -11,3 +11,15 @@ html {
 img {
     max-width: 100%;
 }
+
+.card {
+    background-color: cornflowerblue !important;
+}
+
+.table {
+    background-color: cornflowerblue;
+}
+
+th {
+    color: 
+}
