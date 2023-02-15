@@ -96,3 +96,38 @@ function getImgSrc() {
 
     return imgSrcLowerCaseDashNoSpec
 }
+
+// VUOI SEMPLIFICARTI LA VITA?
+// DESTRUTTURAZIONE OGGETTO
+
+// al posto di scrivere:
+
+// const mate = team[i]
+
+//     const firstName = mate.firstName
+//     const lastName = mate.lastName
+//     const role = mate.role
+
+// scrivi:
+
+// const {firstName, lastName, role} = mate
+
+
+
+// DESTRUTTURAZIONE ARRAY
+
+// al posto di scrivere:
+
+//     const nome1 = nomi[1]
+//     const nome2 = nomi[2]
+//     const nome3 = nomi[3]
+//     const nome4 = nomi[4]
+
+// scrivi:
+
+// const nomi = [nomi[1], nomi[2], nomi[3], nomi[4]]
+
+// e se volessi solo prendere il nome 1 e il nome 3 dell'array?
+
+// const nomi = [nomi[1], ,nomi[4], ,]
+// lascia spazi vuoti tra le virgole nell'ordine corretto degli oggetti 
